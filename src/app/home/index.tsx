@@ -1,11 +1,13 @@
-import { Text, View } from 'react-native'
+import { Image, View } from 'react-native'
+
+import { IMAGES } from '@/assets'
 
 import { styles } from './styles'
 
 export const Home = () => {
   return (
     <View style={styles.container}>
-      <Text>Market List</Text>
+      <Image source={IMAGES.LOGO} style={styles.logo} />
     </View>
   )
 }
